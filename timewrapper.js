@@ -1,3 +1,7 @@
+function restart(){
+  document.getElementById("num").innerHTML = 60;
+}
+
 function minus() {
   if (document.getElementById("num")) {
     var curr = parseInt(document.getElementById("num").innerHTML);
@@ -15,8 +19,8 @@ function minus() {
     document.getElementById("num").innerHTML = 60;
   }
 
-  setTimeout(function() {
-    minus();
-  }, 1000);
+  setTimeout(function() {minus();}, 1000);
+
+  if(_globe==false){
+    return};
 };
-minus();

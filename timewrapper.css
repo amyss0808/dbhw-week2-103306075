@@ -7,15 +7,41 @@ p{
   font-family: Microsoft JhengHei;
   font-size: 50px;
   color: #FFFF66;
-  top: 3%;
+  top: 2%;
   left: 7%;
+}
+
+#one {
+  position: absolute;
+  font-family: Microsoft JhengHei;
+  width:120px;
+  height:40px;
+  border:2px;
+  font-size: 30px;
+  color: #9999FF dashed;
+  background-color:#FFFF66;
+  top: 87%;
+  left: 40%;
+}
+
+#two {
+  position: absolute;
+  font-family: Microsoft JhengHei;
+  width:120px;
+  height:40px;
+  border:2px;
+  font-size: 30px;
+  color: #9999FF dashed;
+  background-color:#FFFF66;
+  top: 87%;
+  left: 51%;
 }
 
 .timer-wrapper {
   position: absolute;
   width: 600px;
   height: 400px;
-  top: 135px;
+  top: 130px;
   left: 50%;
   margin-left: -300px;
   color: #fff;
